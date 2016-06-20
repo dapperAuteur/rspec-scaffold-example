@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Int attr:</strong>
+  <%= @sample.int_attr %>
+</p>
+
+<p>
+  <strong>Str attr:</strong>
+  <%= @sample.str_attr %>
+</p>
+
+<%= link_to 'Edit', edit_sample_path(@sample) %> |
+<%= link_to 'Back', samples_path %>
